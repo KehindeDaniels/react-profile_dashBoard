@@ -3,6 +3,7 @@ import TheProfle from './sections/TheProfile';
 import TableHeading from './sections/TableHeading';
 import TableBody from './sections/TableBody';
 import TheContact from './sections/TheContact';
+import About from './sections/About';
 
 const App = () => (
   <main className="">
@@ -14,6 +15,7 @@ const App = () => (
     <section className="table mt-16">
       <TableHeading />
       <TableBody />
+      <About />
     </section>
     
   </main>
